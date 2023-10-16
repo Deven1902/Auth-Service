@@ -6,7 +6,7 @@ const app = express();
 
 const prepareAndStartServer = () => {
 
-    app.listen(PORT, () => {
+    app.listen(3001, () => {
         console.log(`Server Started on Port: ${PORT}`);
     });
 }   
